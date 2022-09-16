@@ -15,6 +15,34 @@ title __DESIGNPATTERN's Class Diagram__\n
   
 
   namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      class com.baoge.designpattern.chuangjianxing.aa {
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.v1 {
+        class com.baoge.designpattern.chuangjianxing.danli.v1.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.v1 {
+        class com.baoge.designpattern.chuangjianxing.danli.v1.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
     namespace yuanze.danyi.demo1_imageloader.v1 {
       class com.baoge.designpattern.yuanze.danyi.demo1_imageloader.v1.ImageLoader {
       }
@@ -64,7 +92,7 @@ title __DESIGNPATTERN's Class Diagram__\n
 
   namespace com.baoge.designpattern {
     namespace yuanze.dimite.install.v2 {
-      interface com.baoge.designpattern.yuanze.dimite.install.v2.ITest {
+      class com.baoge.designpattern.yuanze.dimite.install.v2.InstallSoftware {
       }
     }
   }
@@ -73,6 +101,14 @@ title __DESIGNPATTERN's Class Diagram__\n
   namespace com.baoge.designpattern {
     namespace yuanze.dimite.install.v2 {
       class com.baoge.designpattern.yuanze.dimite.install.v2.Test {
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace yuanze.dimite.install.v2 {
+      class com.baoge.designpattern.yuanze.dimite.install.v2.Wizard {
       }
     }
   }
@@ -151,6 +187,30 @@ title __DESIGNPATTERN's Class Diagram__\n
   
 
   namespace com.baoge.designpattern {
+    namespace yuanze.kaibi {
+      interface com.baoge.designpattern.yuanze.kaibi.IBook {
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace yuanze.kaibi {
+      class com.baoge.designpattern.yuanze.kaibi.NovelBook {
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace yuanze.kaibi {
+      class com.baoge.designpattern.yuanze.kaibi.OffNovelBook {
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
     namespace yuanze.lishitihuan.demo1 {
       class com.baoge.designpattern.yuanze.lishitihuan.demo1.Father {
       }
@@ -200,7 +260,8 @@ title __DESIGNPATTERN's Class Diagram__\n
 
   com.baoge.designpattern.MainActivity -up-|> androidx.appcompat.app.AppCompatActivity
   com.baoge.designpattern.yuanze.danyi.demo1_imageloader.v2.ImageLoader o-- com.baoge.designpattern.yuanze.danyi.demo1_imageloader.v2.ImageCache : imageCache
-  com.baoge.designpattern.yuanze.dimite.install.v2.Test .up.|> com.baoge.designpattern.yuanze.dimite.install.v2.ITest
+  com.baoge.designpattern.yuanze.kaibi.NovelBook .up.|> com.baoge.designpattern.yuanze.kaibi.IBook
+  com.baoge.designpattern.yuanze.kaibi.OffNovelBook -up-|> com.baoge.designpattern.yuanze.kaibi.NovelBook
   com.baoge.designpattern.yuanze.lishitihuan.demo1.Son -up-|> com.baoge.designpattern.yuanze.lishitihuan.demo1.Father
   com.baoge.designpattern.yuanze.lishitihuan.demo2.Son -up-|> com.baoge.designpattern.yuanze.lishitihuan.demo2.Father
 

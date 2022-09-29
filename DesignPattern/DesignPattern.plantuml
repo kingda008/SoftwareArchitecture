@@ -24,6 +24,86 @@ title __DESIGNPATTERN's Class Diagram__\n
 
   namespace com.baoge.designpattern {
     namespace chuangjianxing {
+      namespace danli.dcl.v1 {
+        class com.baoge.designpattern.chuangjianxing.danli.dcl.v1.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.dcl.v2 {
+        class com.baoge.designpattern.chuangjianxing.danli.dcl.v2.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.ehan {
+        class com.baoge.designpattern.chuangjianxing.danli.ehan.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.jingtaineibulei {
+        class com.baoge.designpattern.chuangjianxing.danli.jingtaineibulei.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.lanhan.v1 {
+        class com.baoge.designpattern.chuangjianxing.danli.lanhan.v1.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.lanhan.v2 {
+        class com.baoge.designpattern.chuangjianxing.danli.lanhan.v2.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.meiju {
+        class com.baoge.designpattern.chuangjianxing.danli.meiju.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace danli.meiju {
+        enum SingletonEnum {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
       namespace danli.v1 {
         class com.baoge.designpattern.chuangjianxing.danli.v1.Client {
         }
@@ -36,6 +116,316 @@ title __DESIGNPATTERN's Class Diagram__\n
     namespace chuangjianxing {
       namespace danli.v1 {
         class com.baoge.designpattern.chuangjianxing.danli.v1.Sigleton {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v1 {
+        abstract class com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.AbsHumanFactory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v1 {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v1 {
+        interface com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.Human {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v1 {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.HumanFactory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v1 {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.WhiteHuman {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v1 {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.YellowHuman {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_duogegongchang {
+        abstract class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.AbsHumanFactory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_duogegongchang {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_duogegongchang {
+        interface com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.Human {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_duogegongchang {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.WhiteHuman {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_duogegongchang {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.WhiteHumanFactory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_duogegongchang {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.YellowHuman {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_duogegongchang {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.YellowHumanFactory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_jdgc {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_jdgc {
+        interface com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.Human {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_jdgc {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.HumanFactory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_jdgc {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.WhiteHuman {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p02_gongchang.v2_jdgc {
+        class com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.YellowHuman {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ3Factory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ7Factory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        abstract class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.DomesticEngine {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        interface com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IBrake {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        interface com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IEngine {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        interface com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ImportEngine {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalBrake {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalTire {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SeniorBrake {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SuvTire {
         }
       }
     }
@@ -259,6 +649,23 @@ title __DESIGNPATTERN's Class Diagram__\n
   
 
   com.baoge.designpattern.MainActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.HumanFactory -up-|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.AbsHumanFactory
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.WhiteHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.Human
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.YellowHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v1.Human
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.WhiteHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.Human
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.WhiteHumanFactory -up-|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.AbsHumanFactory
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.YellowHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.Human
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.YellowHumanFactory -up-|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.AbsHumanFactory
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.WhiteHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.Human
+  com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.YellowHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.Human
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ3Factory -up-|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ7Factory -up-|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.DomesticEngine .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IEngine
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ImportEngine .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IEngine
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalBrake .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IBrake
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalTire .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SeniorBrake .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IBrake
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SuvTire .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire
   com.baoge.designpattern.yuanze.danyi.demo1_imageloader.v2.ImageLoader o-- com.baoge.designpattern.yuanze.danyi.demo1_imageloader.v2.ImageCache : imageCache
   com.baoge.designpattern.yuanze.kaibi.NovelBook .up.|> com.baoge.designpattern.yuanze.kaibi.IBook
   com.baoge.designpattern.yuanze.kaibi.OffNovelBook -up-|> com.baoge.designpattern.yuanze.kaibi.NovelBook

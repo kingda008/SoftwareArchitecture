@@ -1,0 +1,171 @@
+@startuml
+
+title __P03_CHOUXIANGGONGCHANG's Class Diagram__\n
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ3Factory {
+            + createBrake()
+            + createEngine()
+            + createTire()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ7Factory {
+            + createBrake()
+            + createEngine()
+            + createTire()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        abstract class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory {
+            {abstract} + createBrake()
+            {abstract} + createEngine()
+            {abstract} + createTire()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.Client {
+            {static} + main()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.DomesticEngine {
+            + engine()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        interface com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IBrake {
+            {abstract} + brake()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        interface com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IEngine {
+            {abstract} + engine()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        interface com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire {
+            {abstract} + tire()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ImportEngine {
+            + engine()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalBrake {
+            + brake()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalTire {
+            + tire()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SeniorBrake {
+            + brake()
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_chouxianggongchang {
+        class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SuvTire {
+            + tire()
+        }
+      }
+    }
+  }
+  
+
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ3Factory -up-|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ7Factory -up-|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.DomesticEngine .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IEngine
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ImportEngine .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IEngine
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalBrake .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IBrake
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalTire .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SeniorBrake .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IBrake
+  com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SuvTire .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

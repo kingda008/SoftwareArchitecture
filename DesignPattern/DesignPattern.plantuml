@@ -304,6 +304,66 @@ title __DESIGNPATTERN's Class Diagram__\n
 
   namespace com.baoge.designpattern {
     namespace chuangjianxing {
+      namespace p03_build {
+        abstract class com.baoge.designpattern.chuangjianxing.p03_build.Builder {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_build {
+        class com.baoge.designpattern.chuangjianxing.p03_build.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_build {
+        abstract class com.baoge.designpattern.chuangjianxing.p03_build.Computer {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_build {
+        class com.baoge.designpattern.chuangjianxing.p03_build.Director {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_build {
+        class com.baoge.designpattern.chuangjianxing.p03_build.MacBook {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
+      namespace p03_build {
+        class com.baoge.designpattern.chuangjianxing.p03_build.MacBookBuilder {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace chuangjianxing {
       namespace p03_chouxianggongchang {
         class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ3Factory {
         }
@@ -426,6 +486,236 @@ title __DESIGNPATTERN's Class Diagram__\n
     namespace chuangjianxing {
       namespace p03_chouxianggongchang {
         class com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SuvTire {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      class com.baoge.designpattern.xingweixing.aa {
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p01_muban {
+        abstract class com.baoge.designpattern.xingweixing.p01_muban.AbsComputer {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p01_muban {
+        class com.baoge.designpattern.xingweixing.p01_muban.CoderComputer {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p01_muban {
+        class com.baoge.designpattern.xingweixing.p01_muban.NormalComputer {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p01_muban {
+        namespace client {
+          class com.baoge.designpattern.xingweixing.p01_muban.client.Client {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p02_celue {
+        class com.baoge.designpattern.xingweixing.p02_celue.BusCalculateStrategy {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p02_celue {
+        interface com.baoge.designpattern.xingweixing.p02_celue.CalculateStrategy {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p02_celue {
+        class com.baoge.designpattern.xingweixing.p02_celue.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p02_celue {
+        class com.baoge.designpattern.xingweixing.p02_celue.TaxiCalculateStrategy {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p02_celue {
+        class com.baoge.designpattern.xingweixing.p02_celue.TranficCalculator {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p03_zhuangtai {
+        class com.baoge.designpattern.xingweixing.p03_zhuangtai.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p03_zhuangtai {
+        interface com.baoge.designpattern.xingweixing.p03_zhuangtai.PowerController {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p03_zhuangtai {
+        class com.baoge.designpattern.xingweixing.p03_zhuangtai.PowerOffState {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p03_zhuangtai {
+        class com.baoge.designpattern.xingweixing.p03_zhuangtai.PowerOnState {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p03_zhuangtai {
+        class com.baoge.designpattern.xingweixing.p03_zhuangtai.TvController {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p03_zhuangtai {
+        class com.baoge.designpattern.xingweixing.p03_zhuangtai.TvController01 {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p03_zhuangtai {
+        interface com.baoge.designpattern.xingweixing.p03_zhuangtai.TvState {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p04_zhongjiezhe {
+        class com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Client {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p04_zhongjiezhe {
+        abstract class com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Colleague {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p04_zhongjiezhe {
+        class com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteColleagueA {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p04_zhongjiezhe {
+        class com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteColleagueB {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p04_zhongjiezhe {
+        class com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteMediator {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.baoge.designpattern {
+    namespace xingweixing {
+      namespace p04_zhongjiezhe {
+        abstract class com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Mediator {
         }
       }
     }
@@ -658,6 +948,10 @@ title __DESIGNPATTERN's Class Diagram__\n
   com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.YellowHumanFactory -up-|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_duogegongchang.AbsHumanFactory
   com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.WhiteHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.Human
   com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.YellowHuman .up.|> com.baoge.designpattern.chuangjianxing.p02_gongchang.v2_jdgc.Human
+  com.baoge.designpattern.chuangjianxing.p03_build.Director o-- com.baoge.designpattern.chuangjianxing.p03_build.Builder : builder
+  com.baoge.designpattern.chuangjianxing.p03_build.MacBook -up-|> com.baoge.designpattern.chuangjianxing.p03_build.Computer
+  com.baoge.designpattern.chuangjianxing.p03_build.MacBookBuilder -up-|> com.baoge.designpattern.chuangjianxing.p03_build.Builder
+  com.baoge.designpattern.chuangjianxing.p03_build.MacBookBuilder o-- com.baoge.designpattern.chuangjianxing.p03_build.Computer : computer
   com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ3Factory -up-|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory
   com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.AudiQ7Factory -up-|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.CarFactory
   com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.DomesticEngine .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IEngine
@@ -666,6 +960,21 @@ title __DESIGNPATTERN's Class Diagram__\n
   com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.NormalTire .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire
   com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SeniorBrake .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.IBrake
   com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.SuvTire .up.|> com.baoge.designpattern.chuangjianxing.p03_chouxianggongchang.ITire
+  com.baoge.designpattern.xingweixing.p01_muban.CoderComputer -up-|> com.baoge.designpattern.xingweixing.p01_muban.AbsComputer
+  com.baoge.designpattern.xingweixing.p01_muban.NormalComputer -up-|> com.baoge.designpattern.xingweixing.p01_muban.AbsComputer
+  com.baoge.designpattern.xingweixing.p02_celue.BusCalculateStrategy .up.|> com.baoge.designpattern.xingweixing.p02_celue.CalculateStrategy
+  com.baoge.designpattern.xingweixing.p02_celue.TaxiCalculateStrategy .up.|> com.baoge.designpattern.xingweixing.p02_celue.CalculateStrategy
+  com.baoge.designpattern.xingweixing.p02_celue.TranficCalculator o-- com.baoge.designpattern.xingweixing.p02_celue.CalculateStrategy : strategy
+  com.baoge.designpattern.xingweixing.p03_zhuangtai.PowerOffState .up.|> com.baoge.designpattern.xingweixing.p03_zhuangtai.TvState
+  com.baoge.designpattern.xingweixing.p03_zhuangtai.PowerOnState .up.|> com.baoge.designpattern.xingweixing.p03_zhuangtai.TvState
+  com.baoge.designpattern.xingweixing.p03_zhuangtai.TvController .up.|> com.baoge.designpattern.xingweixing.p03_zhuangtai.PowerController
+  com.baoge.designpattern.xingweixing.p03_zhuangtai.TvController o-- com.baoge.designpattern.xingweixing.p03_zhuangtai.TvState : tvState
+  com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Colleague o-- com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Mediator : mediator
+  com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteColleagueA -up-|> com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Colleague
+  com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteColleagueB -up-|> com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Colleague
+  com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteMediator -up-|> com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Mediator
+  com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Mediator o-- com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteColleagueA : concreteColleagueA
+  com.baoge.designpattern.xingweixing.p04_zhongjiezhe.Mediator o-- com.baoge.designpattern.xingweixing.p04_zhongjiezhe.ConcreteColleagueB : concreteColleagueB
   com.baoge.designpattern.yuanze.danyi.demo1_imageloader.v2.ImageLoader o-- com.baoge.designpattern.yuanze.danyi.demo1_imageloader.v2.ImageCache : imageCache
   com.baoge.designpattern.yuanze.kaibi.NovelBook .up.|> com.baoge.designpattern.yuanze.kaibi.IBook
   com.baoge.designpattern.yuanze.kaibi.OffNovelBook -up-|> com.baoge.designpattern.yuanze.kaibi.NovelBook

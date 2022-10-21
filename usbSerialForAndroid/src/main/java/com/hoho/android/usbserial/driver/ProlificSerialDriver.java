@@ -244,6 +244,13 @@ public class ProlificSerialDriver implements UsbSerialDriver {
                         }
                         //Log.d(TAG, "start control line status thread " + mStatus);
                         mReadStatusThread = new Thread(this::readStatusThreadFunction);
+//                        mReadStatusThread = new Thread(){
+//                            @Override
+//                            public void run() {
+//                                super.run();
+//                                readStatusThreadFunction();
+//                            }
+//                        };
                         mReadStatusThread.setDaemon(true);
                         mReadStatusThread.start();
                     }

@@ -1,6 +1,7 @@
-package com.butterknife;
+package com.baoge.kj01_libapt;
 
-import android.support.annotation.UiThread;
+
+import androidx.annotation.UiThread;
 
 /**
  * description:

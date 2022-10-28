@@ -1,2 +1,2 @@
-include ':app', ':DesignPattern', ':SX01_generic', ':SX02_reflect', ':SX03_Annotation', ':KJ01_ButterKnife', ':KJ01_Annotation', ':KJ01_Compiler', ':usbSerialForAndroid', ':KJ01_lIbApt', ':KJ01_AptTest', ':KJ02_EventBus', ':KJ02_EventBusCustom'
+include ':app', ':DesignPattern', ':SX01_generic', ':SX02_reflect', ':SX03_Annotation', ':KJ01_ButterKnife', ':KJ01_Annotation', ':KJ01_Compiler', ':usbSerialForAndroid', ':KJ01_lIbApt', ':KJ01_AptTest', ':KJ02_EventBus', ':KJ02_EventBusCustom', ':KJ03_01Http', ':Gaohuantang'
 rootProject.name='SoftwareArchitecture'
